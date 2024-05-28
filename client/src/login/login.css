@@ -1,0 +1,93 @@
+.LoginOuterDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AB0A6;
+    color: white;
+    /* position: relative; */
+    /* background-color: aqua; */
+}
+
+.LoginInnerDiv {
+    width: 25rem;
+    height: 20rem;
+    /* border: solid; */
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* position: relative; */
+    padding: 2rem;
+    background-color: #374B43;
+}
+
+.LoginInputDiv {
+    position: relative;
+    width: 90%;
+    /* border:solid; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* border-bottom: solid; */
+}
+
+.LoginInnerDiv input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 99%;
+    height: 2rem;
+    padding:none;
+    margin: none;
+    color: white;
+    border-bottom: solid white;
+}
+
+
+.LoginInputDiv label {
+    position: absolute;
+    top: 0.5rem;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+
+.LoginInputDiv input:focus ~ label, .LoginInputDiv input:not(:placeholder-shown) ~ label {
+    top: -1rem;
+}
+
+.LoginInnerDiv button {
+    font-weight: 600;
+    padding: 0.7rem 3rem;
+    background: none;
+    color: white;
+    background-color: #00C896;
+    /* outline: none; */
+    border: solid #00C896;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+/* .LoginInnerDiv button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+} */
+
+.LoginInnerDiv span {
+    font-weight: 600;
+    cursor: pointer;
+    color: #00C896;
+}
+
+
+
+
+
+/* @media (max-width: 576px){
+    body {
+        background-color: aqua;
+    }
+} */

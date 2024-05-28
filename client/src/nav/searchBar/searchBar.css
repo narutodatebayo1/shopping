@@ -1,0 +1,54 @@
+#searchBar {
+    display: flex;
+    align-items: center;
+}
+
+#arrrow, #lens {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+#arrow {display: none;}
+
+#searchBarInput {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #4c675c;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .closeSearchBar > input {display: none;}
+
+    .openSearchBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: #374B43;
+    }
+
+    .openSearchBar #arrow {display: block;}
+    
+    .openSearchBar > #arrow, .openSearchBar > #lens {
+        /* display: block; */
+        width: 1.5rem;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+
+    .openSearchBar > #searchBarInput {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        margin-right: 0;
+    }
+}

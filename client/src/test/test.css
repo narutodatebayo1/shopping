@@ -1,0 +1,13 @@
+#div {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}

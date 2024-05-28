@@ -1,0 +1,57 @@
+/* .HomeScreenDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9AB0A6;
+} */
+
+#allProductDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.productDiv {
+    width: 15rem;
+    height: 20rem;
+    background-color: #374B43;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    /* border: solid; */
+    /* font-size: 0.3rem; */
+}
+
+.productDiv > .imageDiv {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.imageDiv > img {
+    width: 13rem;
+    height: 13rem;
+    object-fit: contain;
+    transition: 0.4s;
+}
+
+.imageDiv:hover > img {
+    width: 14.5rem;
+    height: 14.5rem;
+}
+
+.textDiv > div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.textDiv > div > img {
+    width: 0.8rem;
+}

@@ -1,0 +1,63 @@
+#register {
+    margin: 0 1rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #00C896;
+}
+
+#register:hover {
+    background-color: #009973;
+}
+
+#profile {
+    width: 1.5rem;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+#profilePopUp {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+    background-color: #4c675c;
+}
+
+#profilePopUp > div  {
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#profilePopUp > div:hover {
+    background-color: #628476;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+#backgroundToggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.backgroundToggleBlock {
+    width: 100vw;
+    height: 100vh;
+}
+
+.backgroundToggleNone {
+    width: 0;
+    height: 0;
+}

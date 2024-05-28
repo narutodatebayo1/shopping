@@ -1,0 +1,266 @@
+/* .LoginOuterDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AB0A6;
+    color: white;
+}
+
+.LoginInnerDiv {
+    width: 25rem;
+    height: 20rem;
+    
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    padding: 2rem;
+    background-color: #374B43;
+}
+
+.LoginInputDiv {
+    position: relative;
+    width: 90%;
+}
+
+.LoginInnerDiv input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 99%;
+    height: 2rem;
+    padding:none;
+    margin: none;
+    color: white;
+    border-bottom: solid white;
+}
+
+
+.LoginInputDiv label {
+    position: absolute;
+    top: 0.5rem;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+
+.LoginInputDiv input:focus ~ label, .LoginInputDiv input:not(:placeholder-shown) ~ label {
+    top: -1rem;
+}
+
+.LoginInnerDiv button {
+    font-weight: 600;
+    padding: 0.7rem 3rem;
+    background: none;
+    color: white;
+    background-color: #00C896;
+    border: solid #00C896;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.LoginInnerDiv span {
+    font-weight: 600;
+    cursor: pointer;
+    color: #00C896;
+    text-decoration: underline;
+} */
+
+
+
+
+
+
+/* .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer {
+    height: 20rem;
+    color: white;
+}
+
+#title {
+    padding: 0 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#inner {
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #374B43;
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    border-bottom: solid;
+    margin-top: 2rem;
+}
+
+.inputBox > input {
+    width: 100%;
+    padding: 0;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0px 1000px #374B43 inset;
+    border: none;
+    -webkit-text-fill-color: white;
+    caret-color: white;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.inputBox > label {
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputBox input:focus ~ label, .inputBox input:not(:placeholder-shown) ~ label {
+    top: -1.5rem;
+    background: none;
+}
+
+#signUpButton {
+    padding-top: 2rem;
+}
+
+#signUpButton button {
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    background-color: #00C896;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+} */
+
+#centerDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerDiv {
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #374B43;
+}
+
+.inputDiv {
+    position: relative;
+    margin: 2rem 0;
+    /* border-bottom: solid white; */
+    /* background-color: black; */
+}
+
+.inputDiv > input{
+    width: 100%;
+    padding: 0;
+    padding-left: 0.5rem;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: solid white;
+}
+
+.inputDiv > div {
+    font-size: 0.6rem;
+}
+
+
+.realTextDiv {
+    color: red;
+    font-size: 0.6rem;
+}
+
+.dummyTextDiv {
+    color: #374B43;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0px 1000px #374B43 inset;
+    border: none;
+    -webkit-text-fill-color: white;
+    caret-color: white;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.inputDiv > label {
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+.inputDiv input:focus ~ label, .inputDiv input:not(:placeholder-shown) ~ label {
+    top: -1.5rem;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+#buttonDiv > button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00C896;
+}
+
+#buttonDiv > button:hover {
+    background-color: #009973;
+}
+
+#registerDiv > label {
+    color: #00C896;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}

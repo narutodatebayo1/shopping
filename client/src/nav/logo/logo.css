@@ -1,0 +1,86 @@
+#hamburgerLogo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#hamburger {
+    margin-left: 1rem;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#logo {
+    margin: 0 1rem;
+    padding: 0.25rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+#opacityBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.opacityBackgroundOut {
+    width: 0;
+    height: 0;
+}
+
+
+.opacityBackgroundIn {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#popUp {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: 0.4s;
+    background-color: #374B43;
+    z-index: 1;
+}
+
+.popUpIn {
+    left: 0;
+}
+
+.popUpOut {
+    left: -8.5rem;
+}
+
+#popUpLinks > div {
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#popUpLinks > div:hover {
+    background-color: #2b3b35;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #hamburger {display: flex;}
+}
